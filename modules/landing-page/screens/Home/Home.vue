@@ -5,6 +5,12 @@ import Hero from "@/modules/landing-page/components/Hero/Hero.vue"
 </script>
 
 <template>
-    <Header/>
-    <Hero />
+    <MainContent>
+        <template #header>
+            <Header/>
+        </template>
+        <template #content>
+            <Hero />
+        </template>
+    </MainContent>
 </template>
