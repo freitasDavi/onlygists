@@ -1,5 +1,6 @@
 <template>
   <div>
-    <h1 class="font-inter text-red-500">onlygists</h1>
+    <h1 class="font-[Inter] text-red-500">onlygists</h1>
+    <Button>Subm</Button> 
   </div>
 </template>
