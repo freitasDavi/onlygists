@@ -15,4 +15,5 @@ import WidgetCondensed from '@/modules/reports/components/Widget/Condensed/Conde
             <WidgetCondensed :value="5" label="Gists do pagos" />
         </WidgetGroupLoader>
     </WidgetGroup>
+    <WidgetDefault title="Todos os Gists">gists</WidgetDefault>
 </template>
