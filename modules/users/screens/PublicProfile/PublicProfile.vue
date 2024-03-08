@@ -3,6 +3,9 @@ import PublicHeadline from '@/modules/users/components/PublicHeadline/PublicHead
 import WidgetGroup from '@/modules/reports/components/Widget/Group/Group.vue'
 import WidgetGroupLoader from '@/modules/reports/components/Widget/Group/Loader.vue'
 import WidgetCondensed from '@/modules/reports/components/Widget/Condensed/Condensed.vue'
+import GistCardGroup from '@/modules/gists/components/Card/Group/Group.vue';
+import GistCardItem from '@/modules/gists/components/Card/Item/Item.vue';
+
 
 </script>
 
@@ -15,5 +18,13 @@ import WidgetCondensed from '@/modules/reports/components/Widget/Condensed/Conde
             <WidgetCondensed :value="5" label="Gists do pagos" />
         </WidgetGroupLoader>
     </WidgetGroup>
-    <WidgetDefault title="Todos os Gists">gists</WidgetDefault>
+    <WidgetDefault title="Todos os Gists">
+        <GistCardGroup>
+            <GistCardItem />
+            <GistCardItem />
+            <GistCardItem />
+            <GistCardItem />
+        </GistCardGroup>
+    </WidgetDefault>
+    
 </template>
