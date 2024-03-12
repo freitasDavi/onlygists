@@ -56,7 +56,7 @@
                     v-if="isFree"
                     label="Baixar Gratuitamente" 
                     class="w-full"
-                    icon="pi pi-shopping"
+                    icon="pi pi-shopping-bag"
                     icon-pos="right"
                 />
                 <Button 
@@ -64,7 +64,7 @@
                     v-else
                     :label="`Comprar por ${amount}`" 
                     class="w-full"
-                    icon="pi pi-shopping"
+                    icon="pi pi-shopping-bag"
                     icon-pos="right"
                 />
             </template>
