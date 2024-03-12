@@ -27,7 +27,8 @@ export default defineNuxtConfig({
     },
     importPT: {
       as: 'lara',
-      from: path.resolve(__dirname, "./assets/presets/lara/"),
+      from: "~/assets/presets/lara"
+      // from: path.resolve(__dirname, "./assets/presets/lara/"),
     }
   }
 })
