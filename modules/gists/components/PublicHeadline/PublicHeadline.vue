@@ -28,7 +28,7 @@
         <p class="font-[Inter] font-regular text-gray-500 text-sm md:text-base">
             <i class="pi pi-star"></i>
             by
-            <NuxtLink :to="`/${props.author}`">@{{ props.author }}</NuxtLink>
+            <NuxtLink :to="`/${props.author}`" class="text-primary-500">@{{ props.author }}</NuxtLink>
         </p>
     </div>
 </template>
